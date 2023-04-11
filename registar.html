@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now | Lip Fans</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="flex items-center justify-between flex-wrap bg-teal p-3 bg-slate-100 shadow-md shadow-slate-300">
+        <a href="index.html" class="flex items-center flex-no-shrink mr-6 cursor-pointer">
+            <img src="images/favicon.png" alt="" class="h-10">
+            <span class="font-extrabold text-3xl font-serif">LIP FANS</span>
+        </a>
+        <div class="block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white"
+                id="navBtn">
+                <svg class="h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full hidden flex-grow lg:flex lg:items-center lg:w-auto" id="menubar">
+            <div class="text-lg flex justify-center lg:flex-grow menu">
+                <a href="#"
+                    class="block mt-4 lg:inline-block font-semibold lg:mt-0 text-teal-lighter hover:text-pink-600 mr-6">
+                    Free Trials
+                </a>
+                <a href="#"
+                    class="block mt-4 lg:inline-block font-semibold lg:mt-0 text-teal-lighter  hover:text-pink-600 mr-6">
+                    Free Account
+                </a>
+                <a href="#"
+                    class="block mt-4 lg:inline-block font-semibold lg:mt-0 text-teal-lighter  hover:text-pink-600 mr-6">
+                    Best Account
+                </a>
+                <a href="#"
+                    class="block mt-4 lg:inline-block font-semibold lg:mt-0 text-teal-lighter  hover:text-pink-600 mr-6">
+                    Categories
+                </a>
+                <a href="#"
+                    class="block mt-4 lg:inline-block font-semibold lg:mt-0 text-teal-lighter  hover:text-pink-600">
+                    By Location
+                </a>
+            </div>
+            <div>
+                <a href="registar.html"
+                    class="inline-block  text-sm px-4 py-3 font-semibold leading-none border rounded-full text-pink-600 border-pink-600 hover:border-transparent hover:text-white hover:bg-pink-600 mt-4 lg:mt-0">
+                    Register Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container bg-lip-color mx-auto">
+        <div class="flex flex-col lg:flex-row h-auto">
+            <div class="lg:w-1/2 h-auto lg:bg-pink-700">
+                <div class="h-auto lg:py-32 lg:px-32 mx-auto">
+                    <img src="images/favicon.png" alt="" class="hidden lg:block">
+                    <img src="images/logo.png" alt="" class="mx-auto block lg:hidden">
+                    <h1 class="text-5xl font-extrabold font-serif lg:block hidden text-white">LIP FANS</h1>
+                    <p class="font-serif text-xl lg:text-2xl font-bold lg:text-left text-center lg:text-slate-200 mt-5">
+                        Sign up to support your <br> favorite creators</p>
+                </div>
+            </div>
+            <div class="lg:w-1/2 h-auto">
+                <!-- Register Form -->
+                <div class="mx-auto py-8">
+                    <h2 class="text-2xl font-bold mb-6 text-center">Registration Now</h2>
+                    <form class="w-full max-w-sm mx-auto bg-white p-8 rounded-md shadow-md" action="home.html">
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+                            <input
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-pink-600"
+                                type="text" id="name" name="name" placeholder="John Doe">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                            <input
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-pink-600"
+                                type="email" id="email" name="email" placeholder="john@lipfans.com">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="password">Password</label>
+                            <input
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-pink-600"
+                                type="password" id="password" name="password" placeholder="********">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="confirm-password">Confirm
+                                Password</label>
+                            <input
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-pink-600"
+                                type="password" id="confirm-password" name="confirm-password" placeholder="********">
+                        </div>
+                        <button
+                            class="w-full bg-pink-600 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-pink-800 transition duration-300"
+                            type="submit">Register</button>
+                    </form>
+                    <p class="mt-5 text-xl text-center">Already have an account?<a href="login.html"
+                            class="font-bold px-2 text-pink-600">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer  -->
+    <footer class="bottom-0 w-full bg-slate-100 shadow-inner shadow-slate-300">
+        <div class="flex flex-col lg:flex-row lg:justify-between p-6">
+            <div class="details lg:w-2/5 mx-4">
+                <img src="images/logo.png" alt="" class="w-36 h-auto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="company lg:w-1/5 mx-4 my-4 lg:my-0">
+                <h3 class="text-xl mb-1">Company</h3>
+                <ul class="list-none">
+                    <li><a href="about.com" class="text-gray-800 hover:text-pink-600 font-bold">About Us</a></li>
+                    <li><a href="contact.com" class="text-gray-800 hover:text-pink-600 font-bold">Contact Us</a></li>
+                    <li><a href="terms.com" class="text-gray-800 hover:text-pink-600 font-bold">Terms of Service </a>
+                    </li>
+                    <li><a href="privacy.com" class="text-gray-800 hover:text-pink-600 font-bold">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="categories lg:w-1/5 mx-4 my-4 lg:my-0">
+                <h3 class="text-xl mb-1">Categories</h3>
+                <ul class="list-none">
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Free Trials</a></li>
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Free Account</a></li>
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Categories</a></li>
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">By Location</a></li>
+                </ul>
+            </div>
+            <div class="social-media lg:w-1/5 mx-4 my-4 lg:my-0">
+                <h3 class="text-xl mb-1">FOLLOW US </h3>
+                <ul class="list-none">
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Facebook</a></li>
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Twitter</a></li>
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Instagram</a></li>
+                    <li><a href="#" class="text-gray-800 hover:text-pink-600 font-bold">Pinterest</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center mb-1">&#169; 2023 Created by <a href="index.html" class="text-pink-600 font-bold">LIP
+                FANS</a> Team</p>
+    </footer>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
